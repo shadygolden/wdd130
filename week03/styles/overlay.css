@@ -1,0 +1,56 @@
+* {
+    Margin: 0;
+    Padding: 0;
+}
+
+Main {
+    Max-width: 800px;
+    Margin: 2rem auto;
+    Font-family: Arial, Helvetica, sans-serif;
+}
+
+H1 {
+    Text-align: center;
+    Font-size: 1.5rem;
+    Text-shadow: 3px 3px 5px #777;
+}
+
+.herodiv {
+    Margin: 10px auto;
+
+    /* If removed, what happens? */
+}
+
+.herodiv img {
+    Width: 100%;
+    Height: 300px;
+    Object-fit: cover;
+}
+
+.stats {
+    Position: absolute;
+    bottom: 25px;
+    left: 15px;
+    Background: radial-gradient(#eee, #323A06);
+    Border: 1px solid #000;
+    Padding: 0.65rem;
+    Box-shadow: 0 0 30px #111;
+    Opacity: 0.9;
+}
+
+H2 {
+    Text-shadow: 0 0 15px #333;
+    Border-bottom: 1px solid #555;
+    Margin-bottom: 0.3rem;
+}
+
+Footer {
+    Position: fixed;
+    Bottom: 0;
+    Margin: 1rem;
+    Border-top: 1px solid #000;
+    Padding: 0.5rem;
+    Color: navy;
+    Font-weight: 700;
+    Font-style: italic;
+}
