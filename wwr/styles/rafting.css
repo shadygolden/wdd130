@@ -1,15 +1,13 @@
 /* CSS Variables */
 :root {
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: arial, Helvetica, sans-serif;
 }
 
 /* Reset */
-• {
+* {
     Margin: 0;
     Padding: 0;
     Box-sizing: border-box;
