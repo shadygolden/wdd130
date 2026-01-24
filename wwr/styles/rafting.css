@@ -1,0 +1,151 @@
+/* CSS Variables */
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: arial, Helvetica, sans-serif;
+}
+
+/* Reset */
+• {
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+/* Body */
+Body {
+    Font-family: var(--body-font);
+    Color: var(--accent1-color);
+}
+
+/* Page width */
+Header,
+main,
+footer {
+    Width: 840px;
+    Margin: 0;
+}
+
+/* Header 
+Header {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+    Padding: 16px;
+}
+
+Header img {
+    Width: 120px;
+}*/
+
+/* Navigation 
+Nav ul {
+    Display: flex;
+    List-style: none;
+}
+
+Nav ul li a {
+    Text-decoration: none;
+    Padding: 8px 16px;
+    Color: var(--primary-color);
+    Font-weight: bold;
+}
+*/
+Nav ul {
+    Display: flex;
+    List-style: none;
+}
+
+Nav ul li a {
+    Text-decoration: none;
+    Padding: 8px 16px;
+    Color: var(--primary-color);
+    Font-weight: bold;
+}
+
+/* Headings */
+h1,
+h2 {
+    Font-family: var(--heading-font);
+    Color: var(--primary-color)
+}
+
+h2 {
+    color: #fff;
+    width: 200%;
+    background-color: var(--accent1-color);
+    padding: 15px;
+    text-align: center;
+}
+
+/* Spacing */
+Nav,
+p,
+section,
+article {
+    Margin: 5px;
+    Padding: 8px;
+}
+
+/* Hero */
+.hero {
+    Position: relative;
+}
+
+.hero img {
+    Display: block;
+    Width: 200%;
+    Height: auto;
+}
+
+/* Hero Heading */
+.hero h1 {
+    Position: absolute;
+    Top: 20px;
+    Width: 196%;
+    Padding: 16px;
+    Text-align: center;
+    Background-color: var(--accent1-color);
+    Color: #fff;
+    Opacity: 0.8;
+}
+
+/* Hero Article */
+.hero article {
+    Position: absolute;
+    Bottom: 20px;
+    Left: 20px;
+    Background-color: var(--accent1-color);
+    Padding: 16px;
+    Width: 170%;
+    margin-left: 5px;
+    opacity: 0.8;
+    color: white;
+}
+
+/* Hero Article Image */
+.hero article img {
+    Float: right;
+    Width: 125px;
+}
+
+/* Footer */
+Footer {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+    Padding: 16px;
+}
+
+/* Social Media */
+.socialmedia a {
+    Text-decoration: none;
+}
+
+.socialmedia img {
+    Width: 32px;
+    Margin-left: 8px;
+}
