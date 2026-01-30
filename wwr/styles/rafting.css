@@ -2,6 +2,9 @@
 :root {
     --primary-color: #055a05;
     --accent1-color: #264653;
+    --black-color: #000000;
+    --white-color: #fff;
+    --header-footer: #e0caff;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: arial, Helvetica, sans-serif;
 }
@@ -33,8 +36,7 @@ Header {
     Align-items: center;
     Padding: 16px;
     column-width: 100px;
-    background-color: #e0caff;
-
+    background-color: var(--header-footer)
 }
 
 Header img {
@@ -58,8 +60,8 @@ Nav ul li a {
     Padding: 15px 50px;
     Color: var(--primary-color);
     Font-weight: bold;
-    border: 2px solid black;
-    background-color: #fff;
+    border: 2px solid var(--black-color);
+    background-color: var(--white-color);
 
 }
 
@@ -73,7 +75,7 @@ Nav ul li a {
 }
 
 .section1 h2 {
-    color: black;
+    color: var(--black-color);
     width: 50%;
     padding: 15px;
     text-align: center;
@@ -129,7 +131,7 @@ h1 {
 }
 
 .section2 h2 {
-    color: black;
+    color: var(--black-color);
     font-weight: bold;
     width: 200%;
     padding: 15px;
@@ -163,7 +165,7 @@ article {
     Padding: 16px;
     Text-align: center;
     Background-color: var(--accent1-color);
-    Color: #fff;
+    Color: var(--white-color);
     Opacity: 0.8;
 }
 
@@ -177,7 +179,7 @@ article {
     Width: 195%;
     margin-left: 5px;
     opacity: 0.8;
-    color: white;
+    color: var(--white-color);
 }
 
 /* Hero Article Image */
@@ -192,6 +194,7 @@ Footer {
     Display: grid;
     grid-template-columns: 10fr 3fr 1fr;
     place-items: center;
+    background-color: var(--header-footer);
 
     /* margin-left: 40%; */
 }
