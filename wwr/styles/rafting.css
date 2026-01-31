@@ -81,7 +81,7 @@ Nav ul li a {
 .section1 {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 4fr;
     /* align-items: center; */
 }
@@ -194,7 +194,7 @@ article {
 /* Hero Article */
 .hero article {
     display: grid;
-    grid-template-columns: 3fr 1fr auto;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr;
     Position: absolute;
     Bottom: 120px;
