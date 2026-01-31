@@ -227,6 +227,7 @@ Footer {
 }
 
 footer p {
+    width: 100%;
     font-size: 15px;
     grid-column: 1/2;
     text-align: center;
