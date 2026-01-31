@@ -194,7 +194,7 @@ article {
 /* Hero Article */
 .hero article {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1fr auto;
     grid-template-rows: 1fr;
     Position: absolute;
     Bottom: 120px;
