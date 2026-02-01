@@ -260,7 +260,6 @@ footer p {
     grid-column: 3/4;
 }
 
-h1,
-p {
-    font-size: 100%;
+html {
+    font-size: 10%;
 }
