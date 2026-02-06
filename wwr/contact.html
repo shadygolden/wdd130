@@ -34,7 +34,7 @@
             <p>info@whitewater.com</p>
         </div>
 
-        <section class="set1">
+        <div class="set1">
             <div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2228.119548829898!2d6.423662995951222!3d5.704812431554614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1770403675283!5m2!1sen!2sng"
@@ -55,11 +55,16 @@
                 <div class="radio_div">
                     <label class="radio_label" for="radio">Message Purpose </label>
                     <div>
-                        <p><input type="radio" name="purpose" id="general"> General Inquiry</p>
-                        <p><input type="radio" name="purpose" id="reservation"> Reservation
-                            Questions</p>
-                        <p><input type="radio" name="purpose" id="website"> Website Suggestion</p>
-
+                        <p><input type="radio" name="purpose" id="general">
+                            <label for="general">General Inquiry</label>
+                        </p>
+                        <p><input type="radio" name="purpose" id="reservation">
+                            <label for="reservation">Reservation
+                                Questions</label>
+                        </p>
+                        <p><input type="radio" name="purpose" id="website">
+                            <label for="website">Website Suggestion</label>
+                        </p>
                     </div>
 
                 </div>
@@ -67,12 +72,11 @@
                 <textarea name="message" id="message" placeholder="Type here"></textarea>
                 <div class="div_checkbox">
                     <label for="subscribe">Please Subscribe me to the monthly newsletter </label>
-                    <input class="coluwn1" type="checkbox" id="subscribe">
+                    <input class="coluwn1" name="subscribe" type="checkbox" id="subscribe">
                 </div>
                 <button type="submit">Get in Touch</button>
             </form>
-        </section>
-
+        </div>
         <section class="set2">
             <h2>We Are Here to Serve You</h2>
             <div>
