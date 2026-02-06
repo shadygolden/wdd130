@@ -321,7 +321,7 @@ input[type="email"] {
     vertical-align: top;
 }
 
-.radio_label {
+.radio_legend {
     align-self: center;
     padding-bottom: 20px;
 }
@@ -365,7 +365,6 @@ button {
 }
 
 .set2 div {
-    width: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
