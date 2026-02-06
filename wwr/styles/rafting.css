@@ -318,12 +318,7 @@ input[type="email"] {
 .input1 {
     width: 50%;
     height: 50%;
-    vertical-align: top;
-}
-
-.radio_legend {
-    align-self: center;
-    padding-bottom: 20px;
+    vertical-align: center;
 }
 
 button {
@@ -381,4 +376,23 @@ button {
 
 .imag3 {
     height: 93%;
+}
+
+.fieldset_div {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.fieldset_div div {
+    grid-column: 2/3;
+    justify-self: start;
+}
+
+.fieldset_div div p {
+    padding: 10px;
+}
+
+fieldset {
+    border: none;
 }
