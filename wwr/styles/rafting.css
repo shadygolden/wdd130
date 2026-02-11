@@ -196,7 +196,7 @@ article {
 }
 
 /* Hero Article */
-.hero article {
+.hero div {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr;
@@ -212,7 +212,7 @@ article {
 }
 
 /* Hero Article Image */
-.hero article img {
+.hero div img {
     Width: 100%;
     grid-column: 2/3;
     grid-row: 1/2;
